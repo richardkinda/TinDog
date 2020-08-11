@@ -67,7 +67,7 @@ body {
   height: 100vh;
 }
 
-@media (max-width: 1028px) {
+@media (max-width: 1350px) {
   #title {
     height: auto;
     text-align: center;
@@ -158,16 +158,16 @@ body {
   text-align: center;
 }
 
-/* cta section */
+/* download section */
 
-.cta-h3 {
+.download-h3 {
   font-size: 3.5rem;
   line-height: 1.5;
   font-weight: 900;
   color: #fff;
 }
 
-#cta {
+#download {
   padding: 7% 15%;
   text-align: center;
 }

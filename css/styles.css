@@ -1,0 +1,201 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Montserrat';
+}
+
+.red-theme {
+  background-color: #ff4c68;
+}
+
+.white-theme {
+  background-color: #fff;
+}
+
+/* Title section */
+
+.navbar {
+  padding: 0 0 3rem 0;
+}
+
+.navbar-brand {
+  font-size: 2.5rem;
+  font-family: 'Ubuntu';
+  font-weight: bold;
+}
+
+.brand-icon {
+  margin-right: 3.5%;
+}
+
+.nav-item {
+  padding: 0 12px;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+  font-weight: 100;
+}
+
+.heading {
+  font-size: 3.5rem;
+  line-height: 1.5;
+  font-weight: 900;
+}
+
+.download-icon {
+  margin: 0 10px;
+}
+
+.download-button {
+  margin: 5% 3% 5% 0;
+}
+
+.title-img {
+  position: absolute;
+  right: 30%;
+  width: 75%;
+  transform: rotate(25deg);
+}
+
+#title {
+  padding: 3% 15% 7%;
+  color: #fff;
+  height: 100vh;
+}
+
+@media (max-width: 1028px) {
+  #title {
+    height: auto;
+    text-align: center;
+  }
+  .title-img {
+    position: static;
+    transform: rotate(0);
+  }
+}
+
+/* Feature section */
+
+.features-h3 {
+  font-size: 1.5rem;
+  font-weight: 900;
+}
+
+.features-p {
+  color: #8f8f8f;
+}
+
+.features-icon {
+  color: #ef8172;
+  margin-bottom: 1rem;
+}
+
+.features-icon:hover {
+  color: #ff4c68;
+}
+
+.features-box {
+  padding: 8%;
+}
+
+#features {
+  position: relative;
+  padding: 7% 15%;
+  text-align: center;
+}
+
+/* Testimonials section*/
+
+.testimonials-h2 {
+  color: #fff;
+  font-size: 3rem;
+  line-height: 1.5;
+  font-weight: 900;
+}
+
+.testimonials-em {
+  color: #fff;
+}
+
+.testimonials-img {
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+}
+
+#testimonials {
+  text-align: center;
+}
+
+.carousel-item {
+  padding: 7% 15%;
+}
+
+/* Press section*/
+
+.press-img {
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+
+#press {
+  text-align: center;
+  padding-bottom: 3%;
+}
+
+/* Pricing section */
+
+.pricing-col {
+  padding: 3% 2%;
+}
+
+#pricing {
+  padding: 7%;
+  text-align: center;
+}
+
+/* cta section */
+
+.cta-h3 {
+  font-size: 3.5rem;
+  line-height: 1.5;
+  font-weight: 900;
+  color: #fff;
+}
+
+#cta {
+  padding: 7% 15%;
+  text-align: center;
+}
+
+/* Footer section */
+
+.footer-social-icon {
+  margin: 2% 1%;
+  color: #8f8f8f;
+}
+
+.footer-social-icon:hover {
+  color: #ff4c68;
+}
+
+.footer-p {
+  color: #8f8f8f;
+}
+
+.footer-social-a,
+.footer-social-a:hover,
+.footer-social-a:active,
+.footer-social-a:visited,
+.footer-social-a:focus {
+  text-decoration: none;
+}
+
+#footer {
+  padding: 7% 15% 2%;
+  text-align: center;
+}
